@@ -53,19 +53,19 @@ for page in tqdm_notebook(page_link, desc='Loading...'): # a for loop to get eac
         movie_links.append(link)
 
 ##Empty list to store data we need about each movie   
-titles=[] 
-movie_linkss=[] 
-movie_types=[] 
-time_of_uplos=[] 
-movie_lengths=[] 
-num_of_comments=[] 
-mo_summarys=[]
-Genres=[] 
-Release_Dates=[] 
-Starss=[] 
-Languages=[]
-Subtitles=[]
-imdb_links=[]
+titles = []
+movie_linkss = []
+movie_types = []
+time_of_uplos = []
+movie_lengths = []
+num_of_comments = []
+mo_summarys = []
+Genres = []
+Release_Dates = []
+Starss = []
+Languages = []
+Subtitles = []
+imdb_links = []
 
 #Getting data about each movie
 
