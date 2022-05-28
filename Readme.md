@@ -48,10 +48,10 @@ To explore the notebook file [here](https://nbviewer.org/github/semasuka/Credit-
 
 ## Lessons learned
 ```
-├── assets
-│   ├── net1.png
+├── assets                                    
+│   ├── net1.png    
 │   ├── net.png
-│   ├── pie.png
+│   ├── pie.png                      
 │   ├── README.md
 │   ├── tota_2019.png
 │   ├── total_by_year.png
@@ -71,6 +71,8 @@ To explore the notebook file [here](https://nbviewer.org/github/semasuka/Credit-
 Through this project I was able to work on my webscraping and data cleaning to gain insight to the data
 
 ## Contact
+###### © Copyright 2021 - [Sachimugu]
+(https://github.com/debdattasarkar)
 Email
 linkdIn
 Twitter
