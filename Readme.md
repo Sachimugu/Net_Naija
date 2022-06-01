@@ -29,27 +29,30 @@ For the purpose of the analysis, Each movietitle, movie link, movie type, time o
 ### Run Script
 ![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+To get update data from the site 1. create a folder 2. open terminal in the create folder and run the following code one by one.
 ```bash
 # clone the project
-1 git clone https://github.com/Sachimugu/Net_Naija.git
+git clone https://github.com/Sachimugu/Net_Naija.git
 ```
 ```bash
-# enter the project directory
-2. cd Credit-card-approval-prediction-classification
+# enter the Script  directory
+cd Net_Naija/Web_Scraping/
 ```
 ```bash
 # Create a conda virtual environment called ws and install all the packages
-3. conda create --name ws pandas requests beautifulsoup4 tdqm lxml
+conda create --name webscraping pandas requests beautifulsoup4 tdqm lxml
 ```
-
-
 ```bash
 # Activate the conda environment
-4. conda activate ws
+conda activate webscraping
+```
+```bash
+# install tqdm the packages
+pip install tqdm
 ```
 ```bash
 # run scrpt
-5. python Scraping_script.py
+python scraping_script.py
 ```
 
 

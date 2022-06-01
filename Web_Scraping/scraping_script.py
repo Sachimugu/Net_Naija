@@ -32,7 +32,7 @@ url="https://www.thenetnaija.com/videos/movies" #open on your browser to get a f
 
 page_link=[] # empty list to store list of all pages
 
-for i in tqdm(x, desc= 'Loading....'):
+for i in tqdm(range(x), desc= 'Loading....'):
     soup=browse(url) # load the base url
     url=nextpage(soup)# get next page on base url append it to page list and become the new base url
     if not url:
