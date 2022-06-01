@@ -23,6 +23,7 @@ The main moltivation behind this project was the the lack of dirty data to parac
 
 ## Data Scraping <a name = "data-scraping"></a>
 For the purpose of the analysis, Each movietitle, movie link, movie type, time of upload,movie length, number of comment, movie summary, Genre, Release Date, Stars, movie Languages, movie Subtitles, IMDB links were scraped. Not all not all feature listed werepresent in some movie in which case I replaced them with missing. The Scraping was done using using Beatutiful soup and Request libarary. Click [here]() for dataset and [here]() for scraping script.
+
 ![output](./assets/script.png)
 
 ### Run Script
@@ -55,7 +56,7 @@ For the purpose of the analysis, Each movietitle, movie link, movie type, time o
 ## Data Cleaning <a name = "data-cleaning"></a>
 After getting the scraped data, pandas package was used to do some cleaning by droping duplicate rows, removing parantenses and semi colon present in the  scraped data. Columns that were not significant to the analysis were also droped. Regex was used to parse the movie from the title added it to the upload date. Each column was casted to the appropriate date type. Nan values were removed, replaced or left alone depending on the column and final index was set to be the upload date. After the process 82% of row and 11 columns were left for the analysis.
 
-### Glance at Results
+## Glance at Results
 **Top three stars with most number of movies are:**
 ||||
 |-------------------	        |------------------	|-----------|
