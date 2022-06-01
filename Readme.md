@@ -103,10 +103,6 @@ After getting the scraped data, pandas package was used to do some cleaning by d
 
 ```
 
-## Conculsion:
-
-Through this project I was able to work on my webscraping and data cleaning to gain insight to the data
-
 ## Contact
 
 <a href="mailto:sachimugu@gmail.com"> ![](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white) </a>
