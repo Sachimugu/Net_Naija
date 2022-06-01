@@ -3,7 +3,7 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-from tqdm.notebook import tqdm_notebook
+from tqdm import tqdm
 
 #function to load a url and parse it content
 def browse(url): #browse function
@@ -24,6 +24,7 @@ def nextpage(soup): #nextpage function
 url="https://www.thenetnaija.com/videos/movies"
 soup=browse(url) 
 x= int(soup.find('ul', class_='pagination').text[7:-1])-1
+print(f'They are {x} number of pages')
 
 ## Loop to get link of all pages
 #Base url
@@ -31,18 +32,18 @@ url="https://www.thenetnaija.com/videos/movies" #open on your browser to get a f
 
 page_link=[] # empty list to store list of all pages
 
-for i in tqdm_notebook(range(x), desc= 'Loading....'):
+for i in tqdm(x, desc= 'Loading....'):
     soup=browse(url) # load the base url
     url=nextpage(soup)# get next page on base url append it to page list and become the new base url
     if not url:
         break
     page_link.append(url)
+print('Done')
     
-print(f'The total number of pages: {len(page_link)}')
     
 ##Loop to get the links to all movies on each page
 movie_links=[] # empty list to store movie links form each page
-for page in tqdm_notebook(page_link, desc='Loading...'): # a for loop to get each page from the page list
+for page in tqdm(page_link, desc='Loading....'): # a for loop to get each page from the page list
     soup= browse(page) # load each page and parse
     
     # this series of code get all link to movies on each page and append it to movie_links
@@ -51,7 +52,7 @@ for page in tqdm_notebook(page_link, desc='Loading...'): # a for loop to get eac
     for x in class_info:
         link=x.find("a", href=True)['href']
         movie_links.append(link)
-
+print('Done')
 ##Empty list to store data we need about each movie   
 titles = []
 movie_linkss = []
@@ -69,7 +70,7 @@ imdb_links = []
 
 #Getting data about each movie
 
-for link in tqdm_notebook(movie_links, desc='Loading'):
+for link in tqdm(movie_links, desc='Scraping...'):
     soup= browse(link) # browse movie link and parse
     
     #This series of code get the requried data and append to the data list
@@ -175,5 +176,6 @@ df=pd.DataFrame({"titles":titles,
 
 
 #save data in cvs format
-df.to_csv('./Datanetnaija_movie.csv')
+df.to_csv('../Dataset/netnaija_movie.csv')
+print('Complete')
         
