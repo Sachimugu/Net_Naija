@@ -2,9 +2,12 @@
 
 ![output](./assets/banner.png)
 
-|||||
-|-|-|-|-|
-|![GitHub repo size](https://img.shields.io/github/repo-size/Sachimugu/Net_Naija?color=%23006400)|![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-color=%23006400)|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R)|![GitHub top language](https://img.shields.io/github/languages/top/Sachimugu/Net_Naija?color=%23006400)|
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Sachimugu/Net_Naija?color=%23006400)
+![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-color=%23006400)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R)
+![GitHub top language](https://img.shields.io/github/languages/top/Sachimugu/Net_Naija?color=%23006400)
+
 
 ### Table of Contents
 <ul>
