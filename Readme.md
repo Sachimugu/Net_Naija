@@ -22,7 +22,7 @@ Netnaija free is media download center created on March of 2016. The project aim
 The main moltivation behind this project was the the lack of dirty data to paractise my data cleaning skill and Netnaija been one of my favourite movie site I decidec to scrape and analyse it data.
 
 ## Data Scraping <a name = "data-scraping"></a>
-For the purpose of the analysis, Each movietitle, movie link, movie type, time of upload,movie length, number of comment, movie summary, Genre, Release Date, Stars, movie Languages, movie Subtitles, IMDB links were scraped. Not all not all feature listed werepresent in some movie in which case I replaced them with missing. The Scraping was done using using Beatutiful soup and Request libarary. Click [here]() for dataset and [here]() for scraping script.
+For the purpose of the analysis, Each movietitle, movie link, movie type, time of upload,movie length, number of comment, movie summary, Genre, Release Date, Stars, movie Languages, movie Subtitles, IMDB links were scraped. Not all not all feature listed werepresent in some movie in which case I replaced them with missing. The Scraping was done using using Beatutiful soup and Request libarary. Click [here](https://github.com/Sachimugu/Net_Naija/tree/master/Dataset) for dataset and [here](https://github.com/Sachimugu/Net_Naija/blob/master/Web_Scraping/scraping_script.py) for scraping script.
 
 ![output](./assets/script.png)
 
@@ -77,8 +77,8 @@ After getting the scraped data, pandas package was used to do some cleaning by d
  ![output](./assets/Trend.png)
  They seems to be a surge in number of upload in the first quater of each year.
 
- Explore the notebook file [here]()
- Download full report [here]()
+ Explore the notebook file [here](https://github.com/Sachimugu/Net_Naija/blob/master/Notebook/Data_Wrangling_and_EDA.ipynb)
+ Explore the full report [here](https://github.com/Sachimugu/Net_Naija/blob/master/Report/netnaija.pdf)
 
 ### Repository structure
 ```
