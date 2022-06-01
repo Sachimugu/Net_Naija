@@ -38,14 +38,14 @@ For the purpose of the analysis, Each movietitle, movie link, movie type, time o
 2. cd Credit-card-approval-prediction-classification
 ```
 ```bash
-# Create a conda virtual environment and install all the packages
-3. conda env create --name <env_name> pandas requests bs4
+# Create a conda virtual environment called ws and install all the packages
+3. conda create --name ws pandas requests beautifulsoup4 tdqm lxml
 ```
 
 
 ```bash
 # Activate the conda environment
-4. conda activate <env_name>
+4. conda activate ws
 ```
 ```bash
 # run scrpt
