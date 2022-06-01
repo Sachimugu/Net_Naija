@@ -6,7 +6,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sachimugu/Net_Naija?color=%23006400)
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-color=%23006400)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CfV6yEsHBjFiJbTKwY72k2g4AvszcF5R)
-![GitHub top language](https://img.shields.io/github/languages/top/Sachimugu/Net_Naija?color=%23006400)
+
 
 
 ### Table of Contents
@@ -104,6 +104,8 @@ After getting the scraped data, pandas package was used to do some cleaning by d
 Through this project I was able to work on my webscraping and data cleaning to gain insight to the data
 
 ## Contact
-|||||
-|-|-|-|-|
-|<a  href="mailto:sachimugu@gmail.com"> ![](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white) </a>|<a href="https://www.linkedin.com/in/achimugu-a-79aa8a18a/"> ![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>|<a href="https://twitter.com/achimugu_a"> ![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white) </a>|<a href="https://medium.com/@sachimugu"> ![](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white) </a>|
+
+<a href="mailto:sachimugu@gmail.com"> ![](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white) </a>
+<a href="https://www.linkedin.com/in/achimugu-a-79aa8a18a/"> ![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>
+<a href="https://twitter.com/achimugu_a"> ![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white) </a>
+<a href="https://medium.com/@sachimugu"> ![](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white) </a>
