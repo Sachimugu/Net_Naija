@@ -18,7 +18,7 @@
 </ul>
 
 ##  Introduction <a name = "introduction"></a>
-Netnaija free is media download center created on March of 2016. The project aims webscraping data from the movies section. Movies that has been uploaded from 2016 till date will be scarped. Assuming the role of Data analyst the scraped data will be cleaned and analyze for insights.
+Netnaija free is media download center created on March of 2016. The project aims webscraping data from the movies section. Movies that has been uploaded from 2016 till date will be scarped. Assuming the rol of Data analyst the scraped data will be cleaned and analyze for insights.
 The main moltivation behind this project was the the lack of dirty data to paractise my data cleaning skill and Netnaija been one of my favourite movie site I decidec to scrape and analyse it data.
 
 ## Data Scraping <a name = "data-scraping"></a>
